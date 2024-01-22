@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+/* 
+* {
+    border: 1px solid black;
+}
+ */
+
+html {}
+
+body {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+
+    background-image: url('../images/spaghetti_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    margin-top: 175px;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 64px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+    font-size: 38px;
+}
+
+li {
+    margin: 1rem;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+
+
+}
+
+a:hover {
+    display: block;
+    text-shadow: 10px 10px 10px black;
+    scale: 1.1;
+}
