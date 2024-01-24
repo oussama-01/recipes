@@ -27,13 +27,18 @@ p {
 img {
 
     display: block;
-    width: 500px;
+    max-width: 500px;
 
     margin: 0 auto;
 
     border: 2px solid black;
     border-radius: 10px;
 }
+
+.image {
+    
+}
+
 
 .container {
     width: 900px;

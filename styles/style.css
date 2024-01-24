@@ -43,7 +43,7 @@ a {
 }
 
 a:hover {
-    display: block;
+    display: inline-block;
     text-shadow: 10px 10px 10px black;
     scale: 1.1;
 }
