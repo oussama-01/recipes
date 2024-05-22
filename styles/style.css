@@ -15,13 +15,22 @@ body {
     background-image: url('../images/spaghetti_1280.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    /* make the body take the whole height of the viewport */
+    height: 99vh;
 
-    margin-top: 175px;
+    /* to center */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
 }
 
+
 h1 {
-    color: whitesmoke;
+    color: floralwhite;
     font-size: 64px;
+    margin-bottom: 0;
 }
 
 ul {

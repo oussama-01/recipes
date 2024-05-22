@@ -10,12 +10,16 @@ html {}
 body {
     font-family: 'Dancing Script', cursive;
     font-size: x-large;
+    color: floralwhite;
 
     background-image: url('../images/spaghetti_1280.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 
-    color: whitesmoke;
+    min-height: 95vh;
 }
+
+
 
 h1,
 h2,
@@ -35,13 +39,11 @@ img {
     border-radius: 10px;
 }
 
-.image {
-    
-}
+.image {}
 
 
 .container {
-    width: 900px;
+    max-width: 900px;
     margin: 0 auto;
 
 }
